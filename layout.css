@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f0fdf4;
+}
+
+.app {
+  display: flex;
+  height: 100vh;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 300px;
+  background-color: #14532d;
+  color: white;
+  padding: 16px;
+}
+
+.sidebar h2 {
+  margin-bottom: 20px;
+}
+
+/* Cards */
+.card {
+  background-color: #166534;
+  border-radius: 12px;
+  padding: 12px;
+  margin-bottom: 16px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.card label {
+  display: block;
+  margin-bottom: 6px;
+}
+
+.card select,
+.card input {
+  width: 100%;
+  padding: 6px;
+  border-radius: 6px;
+  border: none;
+}
+
+.card small {
+  font-size: 12px;
+  opacity: 0.8;
+}
+
+/* Botão */
+button.primary {
+  width: 100%;
+  padding: 10px;
+  background-color: #22c55e;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button.primary:hover {
+  background-color: #16a34a;
+}
+
+/* Área do mapa */
+.main {
+  flex: 1;
+  padding: 16px;
+}
+
+.map-card {
+  height: calc(100vh - 32px);
+  background: white;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.leaflet-container {
+  width: 100%;
+  height: 100%;
+}
